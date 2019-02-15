@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 
 import com.qa.classroom.classroomapi.persistence.domain.Intake;
 import com.qa.classroom.classroomapi.persistence.repository.IntakeRepository;
+import com.qa.classroom.classroomapi.util.exceptions.IntakeNotFoundException;
 
 @Service
 public class IntakeServiceImpl implements IntakeService {
