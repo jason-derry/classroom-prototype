@@ -1,0 +1,1 @@
+INSERT INTO Room (name, capacity, intake, occupied) VALUES ('Room 1', 18, -1, false);
