@@ -39,7 +39,7 @@ public class IntakeRest {
 		return service.getIntakes();
 	}
 	
-	@GetMapping("$path.getIntakeById}")
+	@GetMapping("${path.getIntakeById}")
 	public Intake getIntake(@PathVariable Long id) {
 		return service.getIntake(id);
 	}
