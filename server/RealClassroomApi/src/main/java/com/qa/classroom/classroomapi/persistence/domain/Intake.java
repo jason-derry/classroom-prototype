@@ -17,6 +17,33 @@ public class Intake {
 	public Intake() {
 	}
 	
-	public Intake(
+	public Intake(int size, int classroomId) {
+		this.size = size;
+		this.classroomId = classroomId;
+	}
 
+	public long getIntakeId() {
+		return intakeId;
+	}
+
+	public void setIntakeId(long intakeId) {
+		this.intakeId = intakeId;
+	}
+
+	public int getSize() {
+		return size;
+	}
+
+	public void setSize(int size) {
+		this.size = size;
+	}
+
+	public int getClassroomId() {
+		return classroomId;
+	}
+
+	public void setClassroomId(int classroomId) {
+		this.classroomId = classroomId;
+	}
+	
 }
