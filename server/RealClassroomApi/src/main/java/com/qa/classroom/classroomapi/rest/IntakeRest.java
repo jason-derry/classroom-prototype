@@ -35,7 +35,7 @@ public class IntakeRest {
 	private JmsTemplate jmsTemplate;
 	
 	@GetMapping("${path.getIntakes}")
-	public List<Intake> getAccounts() {
+	public List<Intake> getIntakes() {
 		return service.getIntakes();
 	}
 	
