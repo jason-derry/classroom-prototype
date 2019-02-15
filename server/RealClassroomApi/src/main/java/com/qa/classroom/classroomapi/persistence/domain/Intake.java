@@ -10,9 +10,9 @@ public class Intake {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	public long intakeId;
-	public int size;
-	public int classroomId;
+	private long intakeId;
+	private int size;
+	private int classroomId;
 	
 	public Intake() {
 	}
