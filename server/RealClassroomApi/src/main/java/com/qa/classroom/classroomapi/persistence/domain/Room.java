@@ -1,5 +1,6 @@
 package com.qa.classroom.classroomapi.persistence.domain;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -13,6 +14,7 @@ public class Room {
 	public long classroomId;
 	public String name;
 	public int capacity;
+	@Column(name = "intake")
 	public int intakeId;
 	public Boolean occupied; 
 	
